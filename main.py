@@ -48,7 +48,11 @@ def nextCircle(field):
     return field_new
 
 
-#CREATING RANDOM FIELD WITH WIDTH(ROWS) AND HEIGHT(COLUMNS)
+"""Creating random field with width 'rows' and height 'column'
+    @params rows -> count of rows in field
+    @params columns -> count of columns in field
+    
+    @return field_new -> random field with width 'rows' and height 'columns'"""
 def randomField(rows, columns):
     field = []
     for row in range(rows):
