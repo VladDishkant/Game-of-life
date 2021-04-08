@@ -28,7 +28,10 @@ def check_cell(field, row, column):
     return False
 
 
-#NEXT STATION OF FIELD
+"""Next state of field
+    @params field -> our field
+    
+    @return field_new -> next state of out field after one cycle"""
 def nextCircle(field):
     field_new = []
 
