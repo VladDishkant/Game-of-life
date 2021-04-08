@@ -1,6 +1,6 @@
 import random
 
-#CHECKING NEIGHBORS OF CELL
+#Checking neighbors of cell
 def check_cell(field, row, column):
     system = [[-1, -1], [-1, 0], [-1, 1], [0, -1], [0, 1], [1, -1], [1, 0], [1, 1]]
     count = 0
