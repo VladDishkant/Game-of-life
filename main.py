@@ -63,7 +63,7 @@ def randomField(rows, columns):
     return field
 
 
-#START POINT
+#Starting point of the program
 if __name__ == '__main__':
     print("Количество циклов:")
     cycle = int(input())
