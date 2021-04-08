@@ -44,7 +44,7 @@ def test_CheckCell():
              'x....',
              '..x..',
              '.....']
-    assert main.check_cell(field, 0, 0) == False
+    assert !main.check_cell(field, 0, 0)
 
 def test_CheckCellTrue():
     field = ['.....',
